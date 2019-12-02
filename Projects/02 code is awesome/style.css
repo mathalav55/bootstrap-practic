@@ -14,5 +14,9 @@ h1{
     letter-spacing: 10px;
 }
 .row-height{
-    height: 100vh;
+    height: 90vh;
+}
+.footer{
+    height: 5vh;
+    background-color: rgba(0, 0, 0, 0.233);
 }

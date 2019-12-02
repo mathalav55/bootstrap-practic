@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Modal</title>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <style>
+        body{
+            font-family: 'Quicksand', sans-serif;
+            background: #039ffa38;
+        }
+        .con{
+            background: rgba(0, 162, 255, 0.192);
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="mr-auto order-1">
+            <a class="navbar-brand " href="#">
+                    <img src="../04/logo.png" width="30" height="30" alt="">
+                    AMSI KRISHNA
+            </a>
+        </div>
+        <div class="ml-auto order-2">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container con">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="dispaly-5">Lorem ipsum dolor sit amet.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Iusto aspernatur, at eos porro tempore quasi autem 
+                     debitis delectus ducimus inventore magni quam libero 
+                     unde accusamus aperiam minima illo, nostrum consequatur.
+                </p>
+                <a href="#" class="btn btn-primary btn-lg" 
+                data-toggle="modal" data-target="#login-modal" role="button">Login</a> 
+            </div>
+      <!-- Modal -->
+      <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content bg-info">
+            <div class="modal-header">
+              <h5 class="modal-title" id="login-modalLabel">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              </button>
+            </div>
+            <form>
+                <div class="modal-body">
+                <div id="forms">
+                    
+                        <legend>Login form</legend>
+                        <input type="email" name="email" class="form-control" id="email" placeholder="enter your email" required>
+                        <br>
+                        <input type="password" name="password" class="form-control" id="password" placeholder="password" required>
+                        <br>
+                        <input type="checkbox" name="checkbox" id=""><label for="checkbox">Remember me</label>
+                    
+                </div>
+                </div>
+                <div class="modal-footer">
+                        <button class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+          </div>
+        </div>
+      </div>
+        </div>
+    </div>
+    <div class="footer">
+        <footer>
+            <h5 class="display-6">Copyright ©2019 Vamsi Krishna</h2>
+        </footer>
+    </div>
+</body>
+<!-- Js files for bootstrap-->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+</html>
