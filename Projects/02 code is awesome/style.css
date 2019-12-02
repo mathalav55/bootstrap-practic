@@ -1,0 +1,18 @@
+body{
+    background: url('laptop.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #000000;
+}
+h1 span{
+    font-size: 2em;
+    font-weight: 400;
+}
+#asm-text{
+    margin-left: 30%;
+}
+h1{
+    letter-spacing: 10px;
+}
+.row-height{
+    height: 100vh;
+}

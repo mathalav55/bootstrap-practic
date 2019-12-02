@@ -1,0 +1,15 @@
+body{
+    background: url('food.png') no-repeat fixed center center;
+    background-size: cover;
+}
+.hero{
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 15%;
+    letter-spacing: .1em;
+    text-align: center;
+    padding: 40px;
+}
+.hero span{
+    font-size: 100px;
+}

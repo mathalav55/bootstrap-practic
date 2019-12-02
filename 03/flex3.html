@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flex</title>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <style>
+        .container{
+            background: #838383;
+            height: 100vh;
+            font-family: 'Quicksand', sans-serif;
+            text-align:center;
+        }
+        .box{
+            text-align: center;
+            background: #b1b1b1;
+            padding: 20px;
+            border: 1px solid #77777780;            
+        }
+        .row-height{
+            background-color: #000000;
+            height:200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="display-5">Flex-Properties</h1>
+        <h2 class="display-6" align="left">Content ordering:</h2>
+        <div class="row">
+            <div class="col order-2 box">1.Iron Man</div>
+            <div class="col order-3 box">2.Thor</div>
+            <div class="col order-1 box">3.Spider Man</div>
+        </div>
+        <h2 class="display-6" align="left">Offset:</h2>
+        <div class="row">
+            <div class="col-4 offset-md-4 box">Offset by 4 parts</div>
+            <div class="col-4 box">Thor</div>
+        </div>
+        <h2 class="display-6" align="left">Nesting:</h2>
+        <div class="row">
+            <div class="box col-md-4">One:
+                <div class="row">
+                    <div class="col-md-4 box">A</div>
+                    <div class="col-md-4 box">B</div>
+                    <div class="col-md-4 box">C</div>
+                </div>
+            </div>
+            <div class="box col-md-4">Two:
+                <div class="row">
+                        <div class="col-md-4 box">A</div>
+                        <div class="col-md-4 box">B</div>
+                        <div class="col-md-4 box">C</div>
+                </div>
+            </div>
+            <div class="box col-md-4">Three:
+                <div class="row">
+                        <div class="col-md-4 box">A</div>
+                        <div class="col-md-4 box">B</div>
+                        <div class="col-md-4 box">C</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+
+        </div>
+    </div>
+</body>
+<!-- Js files for bootstrap-->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+</html>

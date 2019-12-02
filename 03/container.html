@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Grid</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <style>
+        .blue{
+            background: rgba(0, 183, 255, 0.445);
+            height: 100vh;
+        }
+        /*xs*/
+        @media (max-width: 575px){
+            .blue{
+                background: rgba(1, 255, 137, 0.445);
+                height: 100vh;
+            }
+        }
+        /*sm*/
+        @media (min-width: 576px) and (max-width:767px){
+            .blue{
+                background: rgba(229, 255, 0, 0.623);
+                height: 100vh;
+            }
+        }
+        /*md*/
+        @media (min-width: 768px) and (max-width:991px){
+            .blue{
+                background: rgba(255, 123, 0, 0.726);
+                height: 100vh;
+            }
+        }
+        /*lg*/
+        @media (min-width: 992px) and (max-width:1199px){
+            .blue{
+                background: rgba(255, 123, 0, 0.685);
+                height: 100vh;
+            }
+        }
+        /*xl*/
+        @media (min-width: 1200px){
+            .blue{
+                background: rgba(255, 0, 0, 0.582);
+                height: 100vh;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid blue">
+            <h1 class="display-3">This is a fluid container</h1>
+    </div>
+</body>
+<!-- Js files for bootstrap-->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+</html>
